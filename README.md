@@ -7,7 +7,7 @@ This repository showcases real-life end-to-end public website leveraging AWS App
 
 <img src="arch.drawio.svg"/>
 
-## Website screenshot
+## Website screenshots
 
 ### Product list
 <img src="website.screenshot.product-list.png" width="300"/>
@@ -17,13 +17,13 @@ This repository showcases real-life end-to-end public website leveraging AWS App
 
 ## Kibana dashboards
 
-### General Dashboard
+### General
 <img src="kibana/dashboard.website.png" width="300"/>
 
-### Product dashboard
+### Product
 <img src="kibana/dashboard.product.png" width="300"/>
 
-### Campaign dashboard
+### Campaign
 <img src="kibana/dashboard.campaign.png" width="300"/>
 
 ## Technologies and integrations
