@@ -3,6 +3,29 @@
 ## Scope
 This repository showcases real-life end-to-end public website leveraging AWS AppSync.
 
+## Architecture diagram
+
+<img src="arch.drawio.svg"/>
+
+## Website screenshot
+
+### Product list
+<img src="website.screenshot.product-list.png" width="300"/>
+
+### Product page
+<img src="website.screenshot.product.png" width="300"/>
+
+## Kibana dashboards
+
+### General Dashboard
+<img src="kibana/dashboard.website.png" width="300"/>
+
+### Product dashboard
+<img src="kibana/dashboard.product.png" width="300"/>
+
+### Campaign dashboard
+<img src="kibana/dashboard.campaign.png" width="300"/>
+
 ## Technologies and integrations
 
 ### Databases
