@@ -1,0 +1,3 @@
+node_modules
+bastion_host_key
+*.pub

@@ -1,0 +1,25 @@
+type Product {
+    id: ID!
+    name: String!
+    price: String!
+    imageurl: String
+    brand: String
+    category: String
+    ups: Int
+    downs: Int
+}
+
+type Query {
+    getProducts: [Product]
+    getProduct(id: ID!): Product
+}
+
+type Mutation {
+    voteUp(id: ID!): Product
+    voteDown(id: ID!): Product
+}
+
+type Subscription {
+    productVoteChanged(id: ID!): Product
+    @aws_subscribe(mutations: ["voteUp","voteDown"])
+}

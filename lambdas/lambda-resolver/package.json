@@ -1,0 +1,9 @@
+{
+    "name": "lambda-resolver",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "aws-sdk": "^2.760.0",
+        "pg": "^8.3.3"
+    }
+}

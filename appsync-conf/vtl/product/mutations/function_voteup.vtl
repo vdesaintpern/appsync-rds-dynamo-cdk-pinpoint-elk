@@ -1,0 +1,11 @@
+#set( $type = "UP#" )
+#set( $votesortkey = "$type$util.time.nowISO8601()")
+
+{
+    "version" : "2017-02-28",
+    "operation" : "PutItem",
+    "key" : {
+        "productid": $util.dynamodb.toDynamoDBJson($ctx.args.id),
+        "votesortkey" : $util.dynamodb.toDynamoDBJson($votesortkey)
+    }
+}
